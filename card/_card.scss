@@ -1,0 +1,88 @@
+.card { 
+    padding: 24px;
+    
+    &__about {
+        padding: 24px 32px;
+    }
+
+    &__about-tittle {
+        font-size: 22px;
+        color: black;
+        font-weight: 600;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 10px;
+    }
+
+    &__about-categorie {
+        color:rgb(160, 160, 160);
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    
+    &__about-recipe {
+        line-height: 1.5;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 30px;
+    }
+
+    &--hover {
+        transition: 0.2s linear;
+
+        &:hover {
+            color: rgb(85, 230, 2);
+        }
+    }
+
+    &__recipes {
+        width: 100%;
+        max-width: 360px;
+        background: rgb(255, 255, 255);
+        
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__img {
+        padding: 0 25px 0;
+        display: inline-block; 
+        overflow: hidden;
+    }
+    &__img-cocktail {
+        width: 300px;
+        height: 180px;
+        transition: 1s;
+        display: block;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    &__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__author {
+        display: flex;
+        align-items: center;
+    }
+
+    &__author-img {
+        margin-right: 10px;
+        border-radius: 100%;
+    }
+
+    &__author-nick {
+        color:rgb(160, 160, 160); 
+    }
+    
+    &__date {
+        color:rgb(160, 160, 160);
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}

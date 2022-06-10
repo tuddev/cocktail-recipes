@@ -1,0 +1,11 @@
+.page { 
+    position: relative;
+    background-color: rgb(241, 240, 240); 
+
+    &-section {
+        display: flex;
+        padding: 0 24px;
+        margin: 0 20px 0;
+        flex-wrap: wrap;
+    }
+}
