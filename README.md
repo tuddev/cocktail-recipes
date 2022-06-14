@@ -1,4 +1,4 @@
-# Coctail recipes
+# Cocktail recipes
 
 ## I use 
 
